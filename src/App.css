@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+  /* Styles for smaller screens (e.g., mobile) */
+@media (max-width: 576px) {
+  .App-header {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align content to the left */
+    font-size: 14px; /* Adjust font size */
+  }
+}
 }
