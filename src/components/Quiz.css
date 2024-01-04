@@ -139,26 +139,41 @@ body {
   color: #27ae60;
 }
 
-/* Responsive Design */
+/* Responsive Styles */
 @media only screen and (max-width: 600px) {
   .quiz-container {
-    padding: 20px;
+    padding: 15px;
   }
 
-  .question {
-    font-size: 1.5rem;
-  }
-
-  .option-button {
-    padding: 12px;
-  }
-
+  .option-button,
   .next-button,
   .retry-button {
-    padding: 12px;
+    padding: 10px;
   }
 
   .result-text {
     font-size: 1.2rem;
+  }
+
+  .user-engagement {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .quiz-container {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .quiz-container {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .quiz-container {
+    max-width: 1000px;
   }
 }
